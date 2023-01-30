@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200;  
+}
+
+@layer components {
+  .base-component {
+    @apply mx-auto grid gap-4 lg:grid-cols-2 sm:grid-rows-2;
+  }
+}
